@@ -3,7 +3,7 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/stylesheets/main.css">
+	
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 			
 		
@@ -41,13 +41,13 @@
 
 
 
-	
+	<div class="container">
 			
 				
 				<hr>
 				<%for(let i=comments.length-1;i>=0;i--){%>
 
-				<div class="row">
+				
 					<div class="col-md-12">
 					<strong> <%=comments[i].author%> </strong>
                     <p>létrehozva: <%=comments[i].date%> </p>
@@ -59,7 +59,7 @@
 							<button class="btn btn-danger">Töröl</button>
 						</form>
 						
-				</div>
+				
                   <hr>
 
 
@@ -73,7 +73,7 @@
 			
 
 
-
+</div>
 
 
 
